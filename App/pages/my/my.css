@@ -1,0 +1,89 @@
+.myPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 40upx;
+}
+.login-info-box {
+  margin-top: 150upx;
+}
+.portrait {
+  width: 200upx;
+  height: 200upx;  
+  border-radius: 99px;
+}
+.info-box {
+  text-align: center;
+}
+.cardList {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 500upx;
+  margin-top: 60upx;
+  width: 100%;
+  background-color: white;
+  padding: 25upx;
+  padding-left: 35upx;
+  border-radius: 50upx;
+  box-shadow: 10upx 15upx 5upx #eeeeee;
+}
+.card-item {
+  /* display: flex; */
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item_icon{
+	width: 40upx;
+	height: 40upx;
+}
+
+.title {
+  /* margin-left: -340upx; */
+  margin-left: 30upx;
+  font-size: 36upx;
+}
+.more1 {
+  margin-left: 420upx;
+  width: 20px;
+  height: 16px;
+}
+
+.more2{
+  margin-left: 420upx;
+  width: 20px;
+  height: 16px;	
+}
+
+.more3{
+	margin-left: 420upx;
+	  width: 20px;
+	  height: 16px;	
+}
+
+.more4{
+	margin-left: 310upx;
+	  width: 20px;
+	  height: 16px;	
+}
+
+.more5{
+	margin-left: 348upx;
+	  width: 20px;
+	  height: 16px;	
+}
+
+button{
+	background-color: #007AFF;
+	font-size: 17px;
+	color: white;
+	margin-top: 30upx;
+	width: 270upx;
+	line-height: 90upx;
+	height: 90upx;
+}
+
+.tips{
+	margin-top: 150upx;
+}

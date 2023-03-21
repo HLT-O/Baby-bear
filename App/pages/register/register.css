@@ -1,0 +1,82 @@
+.register{
+	display: flex;
+	flex-direction: column;
+	padding: 100upx 50upx;
+}
+.reg-title{
+	font-size: 70upx;
+	color: #2d2d2d;
+}
+.select-title{
+	padding:20upx 0 0 50upx;
+}
+.select{
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	padding-top:20upx ;
+}
+.select-list{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.select-list image{
+	width: 80upx;
+	height: 80upx;
+}
+.texto{
+	padding:20upx 0 0 50upx;
+	color: #007AFF;
+}
+.childPhone{
+	display: flex;
+	justify-content: space-between;
+	height: 40upx;
+	margin: 10upx 50upx 0;
+	border-bottom:1px solid #e2e2e2 ;
+}
+
+.reg-public{
+	display: flex;
+	justify-content: space-between;
+	height: 70upx;
+	margin: 50upx 50upx 0;
+	border-bottom:1px solid #e2e2e2 ;
+}
+button::after { border: none }
+.but{
+	width: 60%;
+	height: 76upx;
+	line-height: 76upx;
+	border-radius: 50upx;
+	margin-top: 70upx;
+	color: #fff;
+	background-color: #3471FF;
+	font-size: 32upx;
+	padding: 0;
+}
+.but1{
+	width: 60%;
+	height: 76upx;
+	line-height: 76upx;
+	border-radius: 50upx;
+	margin-top: 70upx;
+	color: #fff;
+	background-color: #cbcbcb;
+	font-size: 32upx;
+	padding: 0;
+}
+.look{
+	width: 50upx;
+	height: 50upx;
+	
+}
+.yes1{
+	width: 40upx;
+	height: 40upx;
+}
+.yes{
+	width: 50upx;
+	height: 50upx;
+}

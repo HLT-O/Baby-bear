@@ -1,0 +1,68 @@
+.container{
+	padding-top:130upx ;
+}
+.login-title{
+  margin:0 50upx;
+  font-size: 70upx;
+  color: #2d2d2d;
+}
+.login-describe{
+	margin:0 50upx;
+	font-size: 26upx;
+	color: #888888;
+}
+.input-content{
+  padding: 20upx 0upx;
+}
+.input-item{
+  display:flex;
+  align-items: center;
+  height: 70upx;
+  margin: 50upx;
+  border-bottom:1px solid #e2e2e2 ;
+  margin-bottom: 50upx;
+}
+
+/* .input-item:last-child{
+  margin-bottom: 0;
+} */
+.input-item input{
+  height: 70upx;
+  font-size: 40upx;
+  color: #303133;
+  width: 100%;
+}
+.look{
+	width: 50upx;
+	height: 50upx;
+}
+.confirm-btn{
+  width: 60%;
+  height: 76upx;
+  line-height: 76upx;
+  border-radius: 50upx;
+  margin-top: 70upx;
+  background: #3471ff;
+  color: #fff;
+  font-size: 32upx;
+  padding: 0;
+}
+.forget-section{
+  font-size: 28upx;
+  color: #4399fc;
+  text-align: center;
+  margin-top: 40upx;
+}
+
+.register-section{
+  margin-top: calc(25vh);
+  width: 100%;
+  font-size: 28upx;
+  color: #606266;
+  text-align: center;
+
+}
+.register-section text{
+  color: #4399fc;
+  margin-left: 10upx;
+}

@@ -1,0 +1,98 @@
+.head{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	z-index: 99;
+	top: 0;
+	left: 0;
+	padding-top:60upx ;
+	width: 100%;
+	height: 160upx;
+	background: #efefef;
+}
+.head-left{
+	display: flex;
+	align-items:center;
+	margin-left:30upx;
+}
+.portrait{
+	width: 68upx;
+	height: 68upx;
+	border-radius: 8px;
+	margin-right: 15upx;
+}
+.name{
+	font-size: 25upx;
+}
+.head-right image{
+	width: 40upx;
+	height: 40upx;
+	border-radius: 8px;
+	margin-right: 30upx;
+}
+.chat-list{
+	display: flex;
+	flex-direction: column;
+	padding-top:168upx ;
+}
+.friend{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	height: 130upx;
+	transition: all 0.2s;
+}
+.friend:active{
+	background-color: #efefef;
+}
+.friend-left{
+	position: relative;
+	margin-left: 30upx;
+}
+.friend-left image{
+	width: 90upx;
+	height: 90upx;
+	border-radius: 8px;
+}
+.tip{
+	display: block;
+	position: absolute;
+	top: -10upx;
+	left: 70upx;
+	padding: 0 8upx;
+	height: 38upx;
+	min-width: 22upx;
+	line-height: 38upx;
+	text-align: center;
+	background: #ff493c;
+	color: #FFFFFF;
+	font-size: 20upx;
+	border-radius: 99upx;
+}
+.friend-info{
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	ustify-content: space-around;
+	margin-left: 30upx;
+}
+.friend-name{
+	font-size: 16px;
+	color: #2a2a2a;
+}
+.news{
+	width: 400upx;
+	font-size: 14px;
+	color: #989898;
+	display: block;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.time{
+	margin-right: 30upx;
+	font-size: 14px;
+	color: #989898;
+}

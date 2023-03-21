@@ -1,0 +1,46 @@
+.header,
+.content {
+  padding: 0 50upx;
+}
+
+.header {
+  margin-top: 40upx;
+}
+
+.header input {
+  font-size: 19px;
+}
+
+.content {
+  margin-top: 18upx;
+}
+
+.content input {
+  font-size: 16px;
+}
+
+/* footer start */
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  bottom: 0;
+}
+
+.footer image {
+  width: 70upx;
+  height: 70upx;
+}
+/* footer end */
+
+.save_fixed {
+  position: fixed;
+  bottom: 150upx;
+  right: 50upx;
+}
+
+.save_fixed image {
+  width: 80upx;
+  height: 80upx;
+}

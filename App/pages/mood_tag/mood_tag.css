@@ -1,0 +1,129 @@
+.moodTagContainer {
+  position: relative;
+}
+.question {
+  text-align: center;
+  padding-top: 70upx;
+}
+
+.tagContainer {
+	width: 96%;
+	margin: 50upx auto;
+	height: 470upx;
+	background-color: white;
+	border-radius: 50upx;
+	box-shadow: 10upx 15upx 5upx #eeeeee;
+}
+
+swiper{
+	margin: 50upx 0;
+	height: 250upx;
+}
+
+.swiper-item image{
+	display: inline-block;
+	width: 280upx;
+	height: 250upx;
+	margin-left: 240upx;
+	/* margin-right: 240upx; */
+	border-radius: 20upx;
+	line-height: 250upx;
+	text-align: center;
+}
+
+/* .scroll_tag {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 150upx auto;
+	margin-bottom: 50upx;
+  width: 100%;
+  height: 250upx;
+  white-space: nowrap;
+}
+
+.scroll_tag::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  background-color: transparent;
+}
+
+.scroll_tag image {
+  display: inline-block;
+  width: 280upx;
+  height: 250upx;
+  margin-left: 240upx;
+	margin-right: 240upx;
+  border-radius: 20upx;
+  line-height: 250upx;
+  text-align: center;
+}
+
+.scroll_tag .tag_item1 {
+  background-color: red;
+}
+.scroll_tag .tag_item2 {
+  background-color: blue;
+}
+.scroll_tag .tag_item3 {
+  background-color: yellow;
+} */
+
+
+
+/* 当前选中的标签 */
+
+.currentTag{
+	width: 800upx;
+	padding-left: 50upx;
+	margin-bottom: 10upx;
+}
+
+.currentTag >view{
+	display: inline-block;
+	margin-right: 20upx;
+	width: 150upx;
+	margin-bottom: 20upx;
+}
+
+
+form {
+  width: 90%;
+}
+.mood_input {
+  margin: 0 40upx;
+  border: 1px solid #3471ff;
+  margin-bottom: 20upx;
+}
+
+.history {
+  font-size: 10px;
+  position: absolute;
+  top:10upx;
+  right: 30upx;
+  background-color: #3471ff;
+  height: 60upx;
+  width: 120upx;
+  line-height: 60upx;
+  border-radius: 17upx;
+  text-align: center;
+  color: white;
+}
+
+.finsh {
+  width: 120upx;
+  height: 80upx;
+  line-height: 80upx;
+  border-radius: 10px;
+  font-size: 15px;
+  text-align: center;
+  background-color: #3471ff;
+  color: white;
+  position: absolute;
+  right: 40upx;
+}
+
+ /deep/.uni-scroll-view::-webkit-scrollbar {
+    /* 隐藏滚动条，但依旧具备可以滚动的功能 */
+    display: none
+}

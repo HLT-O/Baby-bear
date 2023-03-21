@@ -1,0 +1,530 @@
+{
+  "pages": [
+	{
+	  "path": "pages/index/index",
+	  "style": {
+	    "navigationBarTitleText": "首页",
+		"navigationBarBackgroundColor":"#f9f9f9"
+	  }
+	},
+		{
+		  "path": "pages/login/login",
+		  "style": {
+		    "navigationBarTitleText": "登录",
+		    "enablePullDownRefresh": false,
+			"navigationBarBackgroundColor":"#f9f9f9"
+		  }
+		},
+    
+    {
+      "path": "pages/chat/chat",
+      "style": {
+        "navigationBarTitleText": "",
+        "navigationStyle":"custom"
+      }
+    },
+    {
+      "path": "pages/my/my",
+      "style": {
+        "navigationBarTitleText": "我的",
+        "enablePullDownRefresh": false,
+		"navigationBarBackgroundColor":"#f9f9f9"
+      }
+    },
+    {
+      "path": "pages/log/log",
+      "style": {
+        "navigationBarTitleText": "日志列表",
+        "enablePullDownRefresh": false,
+		"navigationBarBackgroundColor":"#f9f9f9"
+      }
+    },
+    {
+      "path": "pages/log_info/log_info",
+      "style": {
+        "navigationBarTitleText": "日志",
+        "enablePullDownRefresh": false,
+		"navigationBarBackgroundColor":"#f9f9f9"
+      }
+    },
+    
+    {
+      "path": "pages/register/register",
+      "style": {
+        "navigationBarTitleText": "注册",
+        "enablePullDownRefresh": false
+      }
+    }
+      ,{
+            "path" : "pages/mood_tag/mood_tag",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "心情标签",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#f9f9f9"
+            }
+            
+        }
+        ,{
+            "path" : "pages/about/about",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "关于平台",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#f9f9f9"
+            }
+            
+        }
+        ,{
+            "path" : "pages/count_manage/count_manage",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "账号管理",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#f9f9f9"
+            }
+            
+        }
+        ,{
+            "path" : "pages/search/search",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/newLog/newLog",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "新建日志",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#f9f9f9"
+            }
+            
+        }
+        ,{
+            "path" : "pages/historyTag/historyTag",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "历史标签",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#f9f9f9"
+            }
+            
+        }
+        ,{
+            "path" : "pages/chatRoom/chatRoom",
+            "style" :                                                                                    
+                        {
+                            "navigationBarTitleText": "小爱姐姐",
+                            "enablePullDownRefresh": false,
+            				"navigationBarBackgroundColor":"#ececec"
+                        }
+            
+        }
+        ,{
+            "path" : "pages/article_info/article_info",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/adult_article1/adult_article1",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#F9F9F9"
+            }
+            
+        }
+        ,{
+            "path" : "pages/adult_article2/adult_article2",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#F9F9F9"
+            }
+            
+        }
+        
+        ,{
+            "path" : "pages/adult_article3/adult_article3",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#F9F9F9"
+            }
+            
+        }
+        ,{
+            "path" : "pages/child_video1/child_video1",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#F9F9F9"
+            }
+            
+        }
+        ,{
+            "path" : "pages/child_video2/child_video2",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#F9F9F9"
+            }
+            
+        }
+        ,{
+            "path" : "pages/child_article/child_article",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#F9F9F9"
+            }
+            
+        }
+        ,{
+            "path" : "pages/bear/bear",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#F9F9F9"
+            }
+            
+        }
+        ,{
+            "path" : "pages/helper_article/helper_article",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#F9F9F9"
+            }
+            
+        }
+        ,{
+            "path" : "pages/helper_article2/helper_article2",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#F9F9F9"
+            }
+            
+        }
+        ,{
+            "path" : "pages/child_historyTag/child_historyTag",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "儿童的历史标签",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#F9F9F9"
+            }
+            
+        }
+        ,{
+            "path" : "pages/bear/bear",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#F9F9F9"
+            }
+            
+        }
+        ,{
+            "path" : "pages/secret/secret",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#f9f9f9"
+            }
+            
+        }
+        ,{
+            "path" : "pages/news/news",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": true,
+				"navigationBarBackgroundColor":"#F9F9F9"
+            }
+            
+        }
+        ,{
+            "path" : "pages/education1/education1",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#f9f9f9"
+            }
+            
+        }
+        ,{
+            "path" : "pages/education2/education2",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#f9f9f9"
+            }
+            
+        }
+        ,{
+            "path" : "pages/education3/education3",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#f9f9f9"
+            }
+            
+        }
+        ,{
+            "path" : "pages/adult_article4/adult_article4",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#f9f9f9"
+            }
+            
+        }
+        ,{
+            "path" : "pages/adult_article5/adult_article5",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#f9f9f9"
+            }
+            
+        }
+        ,{
+            "path" : "pages/story1/story1",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#f9f9f9"
+            }
+            
+        }
+        ,{
+            "path" : "pages/story2/story2",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#f9f9f9"
+            }
+            
+        }
+        ,{
+            "path" : "pages/story3/story3",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#f9f9f9"
+            }
+            
+        }
+        ,{
+            "path" : "pages/story4/story4",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#f9f9f9"
+            }
+            
+        }
+        ,{
+            "path" : "pages/sc1/sc1",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#f9f9f9"
+            }
+            
+        }
+        ,{
+            "path" : "pages/sc2/sc2",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#f9f9f9"
+            }
+            
+        }
+        ,{
+            "path" : "pages/sc3/sc3",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#f9f9f9"
+            }
+            
+        }
+        ,{
+            "path" : "pages/sc4/sc4",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#f9f9f9"
+            }
+            
+        }
+		,{
+		    "path" : "pages/chatRoom2/chatRoom",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#f9f9f9"
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/chatRoom3/chatRoom",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#f9f9f9"
+		    }
+		    
+		}
+        ,{
+            "path" : "pages/child_video3/child_video3",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#f9f9f9"
+            }
+            
+        }
+        ,{
+            "path" : "pages/child_video5/child_video5",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#f9f9f9"
+            }
+            
+        }
+        ,{
+            "path" : "pages/setting/setting",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#F9F9F9"
+            }
+            
+        }
+        ,{
+            "path" : "pages/currency/currency",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "通用",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#F9F9F9"
+            }
+            
+        }
+        ,{
+            "path" : "pages/notice/notice",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "消息通知",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#F9F9F9"
+            }
+            
+        }
+        ,{
+            "path" : "pages/Privacy/Privacy",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#F9F9F9"
+            }
+            
+        }
+        ,{
+            "path" : "pages/QRcode/QRcode",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#F9F9F9"
+            }
+            
+        }
+        ,{
+            "path" : "pages/scanCode/scanCode",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#F9F9F9"
+            }
+            
+        }
+    ],
+  "globalStyle": {
+			"navigationBarTextStyle": "black",
+   		"navigationBarTitleText": "",
+   		"navigationBarBackgroundColor": "#ffffff",
+   		"backgroundColor": "#ffffff"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#1296db",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "./static/index.png",
+        "selectedIconPath": "./static/index_selected.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/chat/chat",
+        "iconPath": "./static/chat.png",
+        "selectedIconPath": "./static/chat_selected.png",
+        "text": "智慧聊天"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "./static/my.png",
+        "selectedIconPath": "./static/my_selected.png",
+        "text": "我的"
+      }
+    ]
+  }
+}

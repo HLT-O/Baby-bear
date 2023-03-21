@@ -1,0 +1,102 @@
+.container{
+	width: 99%;
+	margin: 0 auto;
+	padding: 0 40upx 0 40upx;
+}
+
+.header .title{
+	text-align: center;
+}
+
+.header .time{
+	color: #9E9E9E;
+	margin: 10upx 50upx;
+	margin-top: 20upx;
+	margin-left: 60upx;
+}
+
+.image{
+	text-align: center;
+	/* margin: 0 auto; */
+}
+
+image{
+	border-radius: 30upx;
+}
+
+.content{
+	padding-bottom: 50upx;
+}
+
+.content p,h1,h2,h3,h4,h5,li{
+	margin: 15upx;
+}
+
+
+/* 留言板块 start*/
+.comment{
+	padding-bottom: 80upx;
+}
+
+.issue{
+	width: 95%;
+	background-color: white;
+	padding-left: 30upx;
+	padding-top: 20upx;
+	color: #C0C0C0;
+	height: 150upx;
+	line-height: 80upx;
+	border-radius: 10px;
+	font-size: 12px;
+}
+
+.publish{
+	background-color: #1296db;
+	width: 100upx;
+	height: 50upx;
+	line-height: 50upx;
+	text-align: center;
+	border-radius: 10upx;
+	color: white;
+	font-size: 13px;
+	margin-left: 520upx;
+	margin-top: 30upx;
+}
+
+.textHeader{
+	color: #9E9E9E;
+	font-size: 14px;
+	margin-left: 10upx;
+}
+
+.comment_info{
+	width: 100%;
+	margin-top:20upx;
+	padding-top: 20upx;
+	/* padding-left: 20upx; */
+	height: 120upx;
+	/* background-color: white; */
+}
+
+.user_icon{
+	float: left;
+}
+
+.user_icon image{
+	width: 80upx;
+	height: 80upx;
+}
+
+.user_name{
+	margin-left: 90upx;
+	color: #757575;
+	font-size: 13px;
+	height: 40upx;
+}
+
+.user_comment{
+	margin-left: 90upx;
+	color: #757575;
+	font-size: 14px;
+	height: 40upx;
+}

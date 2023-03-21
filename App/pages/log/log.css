@@ -1,0 +1,105 @@
+.logContainer {
+  padding-top: 30upx;
+  height: 100%;
+}
+/* search start */
+.logHeader {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30upx;
+}
+
+.logHeader input {
+  border-radius: 15px;
+  padding-left: 40upx;
+  font-size: 15px;
+  width: 85%;
+  height: 80upx;
+  background-color: rgb(246, 246, 246);
+}
+/* search end */
+
+/* folder start */
+.folder {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin-top: 30upx;
+  margin-bottom: 30upx;
+  margin-left: 5%;
+  padding-right: 30upx;
+  height: 100upx;
+  border-radius: 14px;
+  background-color: rgb(246, 246, 246);
+}
+
+.folder .folder_item {
+  display: flex;
+  margin: 0 20upx;
+}
+
+.folder_icon image {
+  width: 20px;
+  height: 20px;
+}
+
+.folder_name {
+  margin-left: 15upx;
+}
+/* folder end */
+
+/* log_item start */
+.log_item {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: 10upx 15upx 5upx #eeeeee;
+  margin: 0 20upx;
+  margin-left: 5%;
+  padding-left: 3%;
+  padding-top: 20upx;
+  padding-bottom: 20upx;
+  margin-bottom: 30upx;
+}
+
+.log_item > view {
+  overflow: hidden;
+  -webkit-line-clamp: 1;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  margin: 5upx 0;	
+	margin-left: 10upx;
+}
+
+.item_name {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.item_info {
+  font-size: 15px;
+  color: rgb(113, 113, 113);
+}
+
+.item_date {
+  font-size: 13px;
+  color: rgb(113, 113, 113);
+}
+/* log_item end */
+
+/* new_fixed start */
+.new_fixed {
+  position: fixed;
+  bottom: 150upx;
+  right: 50upx;
+}
+
+.new_fixed image {
+  width: 70upx;
+  height: 70upx;
+}
+/* new_fixed end */

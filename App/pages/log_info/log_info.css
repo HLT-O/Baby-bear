@@ -1,0 +1,53 @@
+.header,
+.content {
+  padding: 0 40upx;
+}
+
+.line{
+	margin: 30upx auto;
+	width: 90%;
+	height: 2upx;
+	background-color: #007AFF;
+}
+
+.header {
+  margin-top: 60upx;
+}
+
+.header>view {
+  font-size: 19px;
+}
+
+.content {
+  margin-top: 18upx;
+}
+
+.content >view {
+  font-size: 16px;
+}
+
+/* footer start */
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  bottom: 0;
+}
+
+.footer image {
+  width: 70upx;
+  height: 70upx;
+}
+/* footer end */
+
+.save_fixed {
+  position: fixed;
+  bottom: 150upx;
+  right: 50upx;
+}
+
+.save_fixed image {
+  width: 80upx;
+  height: 80upx;
+}

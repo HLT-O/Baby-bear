@@ -1,0 +1,43 @@
+.aboutContainer {
+  padding: 0 40upx;
+}
+.logo {
+  width: 300upx;
+  height: 300upx;
+  margin: 100upx auto;
+}
+
+.logo image {
+	border-radius: 250px;
+  width: 300upx;
+  height: 300upx;
+}
+
+.aboutList {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 400upx;
+  margin-top: 100upx;
+  width: 100%;
+  background-color: white;
+  padding: 25upx;
+  padding-left: 35upx;
+  border-radius: 50upx;
+  box-shadow: 10upx 15upx 5upx #eeeeee;
+}
+
+.about_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  font-size: 17px;
+}
+
+.more {
+  width: 20px;
+  height: 16px;
+}
