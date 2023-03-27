@@ -1,5 +1,7 @@
 # Baby-bear
 大二时期的互联网+参赛作品，有点惨不忍睹
+该项目拿了互联网+市赛铜奖
+<img src="https://user-images.githubusercontent.com/83321453/227888903-8a30fce4-a2b7-4884-a216-9d1c036e37da.JPG" width="300">
 
 app 是前端
 
@@ -18,3 +20,4 @@ koa_test是后端
 <img src="https://user-images.githubusercontent.com/83321453/227887420-d9600d74-9b8f-4902-a700-5846dd1a5782.jpg" width="300">
 <img src="https://user-images.githubusercontent.com/83321453/227887484-68314592-b04b-4cb9-a596-819696c999c7.jpg" width="300">
 
+![1668043846142]()
